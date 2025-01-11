@@ -10,6 +10,8 @@
 
 2025-01-11 21:35
 
-
+##풀이
+dx dy 좌, 우, 아래 설정하고 탐색하면서 좌나 우가 1이면 for문 break하면 됨
+방향 좌 우만 설정하고, 실패시 아래로 가는 로직 짜다가 괜히 복잡해져서 헤맸음
 
 > 출처: SW Expert Academy, https://swexpertacademy.com/main/code/problem/problemList.do
