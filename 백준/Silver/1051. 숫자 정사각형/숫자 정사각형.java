@@ -17,6 +17,9 @@ public class  Main {
 		max=1;
 		for(int i=0;i<N-1;i++) {
 			for(int j=0;j<M-1;j++) {
+				if(N-i<=max||M-j<=max) {
+					break;
+				}
 				max=Math.max(max,find(i,j));
 			}
 		}
