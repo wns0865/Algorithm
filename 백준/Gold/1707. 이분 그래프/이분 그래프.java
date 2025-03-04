@@ -9,13 +9,6 @@ import java.io.*;
  */
 
 public class Main {
-	static class pos{
-		int x, y;
-		public pos (int x, int y) {
-			this.x=x;
-			this.y=y;
-		}
-	}
 	static ArrayList<Integer> list[];
 	static int V, E;
 	public static void main(String[] args) throws IOException {
